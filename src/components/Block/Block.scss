@@ -1,0 +1,26 @@
+.block {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  &-selected {
+    border: 1px solid rgba(0, 0, 0, 0.9);
+  }
+  &:hover {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+}
+
+.tooltip {
+  border-radius: 3px;
+  padding: 5px 9px;
+
+  &-count {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  &-date {
+    color: #7c7c7c;
+    font-size: 10px;
+  }
+}

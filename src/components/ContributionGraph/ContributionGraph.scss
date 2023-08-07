@@ -1,0 +1,56 @@
+.contribution-graph {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  &_days {
+    display: flex;
+  }
+
+  .months {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+
+    &-item {
+      flex: 1;
+    }
+  }
+
+  .graph {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .days-of-week {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-right: 5px;
+
+    & div {
+      height: 15px;
+    }
+  }
+
+  &-info {
+    margin: 15px 0 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 8px;
+
+    .blocks {
+      display: flex;
+      gap: 2px;
+    }
+  }
+}
